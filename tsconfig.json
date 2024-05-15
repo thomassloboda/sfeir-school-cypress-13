@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "preserveValueImports": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["cypress", "node"],
+    "lib": ["es5", "dom"]
+  },
+  "include": ["cypress/**/*.ts"],
+  "exclude": ["node_modules", "cypress.config.js"]
+}
